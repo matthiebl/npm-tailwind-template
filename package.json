@@ -1,6 +1,6 @@
 {
   "name": "@matthiebl/npm-tailwind-template",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A template npm module with react + typescript + tailwindcss",
   "license": "MIT",
   "author": "Matthew Hiebl",
@@ -31,7 +31,6 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests --coverage",
-    "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",

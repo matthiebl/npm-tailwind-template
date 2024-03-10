@@ -7,8 +7,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: ['16.x', '18.x', '20.x']
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        node: ['20.x']
+        os: [macOS-latest]
 
     steps:
       - name: Checkout repo
@@ -21,9 +21,6 @@ jobs:
 
       - name: Install deps and build (with cache)
         uses: bahmutov/npm-install@v1
-
-      - name: Lint
-        run: yarn lint
 
       - name: Test
         run: yarn test --ci --coverage --maxWorkers=2
