@@ -1,6 +1,6 @@
 {
   "name": "@matthiebl/npm-tailwind-template",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A template npm module with react + typescript + tailwindcss",
   "license": "MIT",
   "author": "Matthew Hiebl",
